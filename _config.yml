@@ -1,11 +1,11 @@
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "mint"
+#remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+#minimal_mistakes_skin: "mint"
+remote_theme: wowthemesnet/mediumish-theme-jekyll
+#theme: jekyll-theme-minimal
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-# remote_theme: wowthemesnet/mediumish-theme-jekyll
-# remote_theme: mmistakes/minimal-mistakes
-# theme: jekyll-theme-minimal
+title: Davi Saranszky Mesquita
+description: Bookmark this to keep an eye on my project updates!
+
