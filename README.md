@@ -1,4 +1,4 @@
 # Bem vindo
 
 - Em construção
-- [e-mail](mailto:davi@ideias.casa)
+- [davi@ideias.casa](mailto:davi@ideias.casa)
