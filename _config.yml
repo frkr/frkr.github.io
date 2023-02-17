@@ -4,7 +4,7 @@
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-remote-theme
-  - jekyll-include-cache
+  #- jekyll-include-cache
 
 title: Davi Saranszky Mesquita
 description: 48.112.728/0001-31
