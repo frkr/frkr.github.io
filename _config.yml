@@ -2,12 +2,71 @@
 #minimal_mistakes_skin: "mint"
 #remote_theme: wowthemesnet/mediumish-theme-jekyll
 #theme: jekyll-theme-minimal
+#remote_theme: thedevslot/WhatATheme
 
-remote_theme: thedevslot/WhatATheme
+markdown: kramdown
+
+url: ''
+baseurl:
+
+title: Casa das Ideias
+description: Em construção
+site-image:
+site-keywords: Java
+favicon-url: /assets/Light-Bulb_icon_by_Till_Teenck_green.svg
+
+heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+
+author-name: Davi Saranszky Mesquita
+author-image: /assets/perfil.jpeg
+author-about: "Desenvolvedor de software, apaixonado por tecnologia e inovação. 48.112.728/0001-31 - Contato: +55-11-92004-4039"
+author-url: https://github.com/frkr
+
+email: davi@ideias.casa
+#linkedin_username: mesquitadavi
+github_username: frkr
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
+  - jekyll-admin
+  - jekyll-feed
 
-title: Davi Saranszky Mesquita
-description: 48.112.728/0001-31
+permalink: "blog/:title"
+
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  - scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  - scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - frkr.iml
+  - CNAME
+  - LICENSE
+  - README.md

@@ -1,5 +1,7 @@
-# Em construção
-### 
-- CNPJ: 48.112.728/0001-31
-- Contato: +55-11-92004-4039
-- [davi@ideias.casa](mailto:davi@ideias.casa) ![Pixel](https://www.facebook.com/tr?id=915739339566635&ev=PageView&noscript=1)
+### Ruby
+```shell
+#sudo apt-get install ruby-full build-essential zlib1g-dev
+gem install jekyll bundler
+bundle install
+bundle exec jekyll serve --incremental --port 4000
+```
