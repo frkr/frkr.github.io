@@ -1,12 +1,28 @@
 ---
 title: SpringDataflow
 layout: post
-post-image: https://dataflow.spring.io/static/21b104023960490a68239f328ac8055e/ee604/screen-dataflow.png
+post-image: https://i.ytimg.com/vi/rvAr0KYXBhk/maxresdefault.jpg
+tags:
+- Spring
+- SpringDataflow
+- SpringCloud
+- SpringCloudDataflow
+- Workflow
+- Pipeline
 ---
 
-### DataFlow
-- [DOC](https://dataflow.spring.io/docs/installation/local/docker/)
-- [PDF](/assets/springdataflow/spring-data-flow-reference.pdf)
+# Spring Dataflow
+
+
+## Instalação Local, vem vazia
+- [Testar com Kubernetes](https://docs.spring.io/spring-cloud-dataflow/docs/current/reference/htmlsingle/#local-k8s-development)
+
+
+### Arquivos
+- [DOC](https://dataflow.spring.io/docs/installation/local/docker/) / [PDF](/assets/springdataflow/local-spring-dataflow.pdf)
+- [YAML Compose](/assets/springdataflow/docker-compose.yml)
+- [YAML RabbitMQ](/assets/springdataflow/docker-compose-rabbitmq.yml)
+- [YAML MySQL](/assets/springdataflow/docker-compose-mysql.yml)
 
 ```shell
 
@@ -17,7 +33,6 @@ wget -O docker-compose-mysql.yml https://raw.githubusercontent.com/spring-cloud/
 export DATAFLOW_VERSION=2.10.1
 export SKIPPER_VERSION=2.9.1
 docker-compose -f docker-compose.yml -f docker-compose-rabbitmq.yml -f docker-compose-mysql.yml up
-
 
 ```
 

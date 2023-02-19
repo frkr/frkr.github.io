@@ -1,10 +1,4 @@
-.bundle
-_site
-bin
-.jekyll-metadata
-
 _sample
-.sass-cache
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/jekyll,ruby

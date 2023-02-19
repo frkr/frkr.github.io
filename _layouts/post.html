@@ -29,8 +29,9 @@ layout: compress
             {% unless page.description.size == 0 %}
             <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.description | strip | strip_html | strip_newlines }}</p>
             {% endunless %}
-            <p class="subtitle is-6 is-uppercase has-text-weight-normal has-text-black-ter">Published on
-              <b>{{ page.date | date: "%-B %d, %Y" }}</b> by <a href="{% if site.author-url %}{{site.author-url}}{% else %}{{site.url}}{{site.baseurl}}/#about{% endif %}" target="_blank"><b class="has-text-link"><u>{{site.author-name}}</u></b>
+            <p class="subtitle is-6 is-uppercase has-text-weight-normal has-text-black-ter">Publicado em
+              <b>{{ page.date | date: "%-B %d, %Y" }}</b> por <a href="{% if site.author-url %}{{site.author-url}}{% else %}{{site.url}}{{site.baseurl}}/#about{% endif %}" target="_blank"><b class="has-text-link"><u>{{site.author-name
+                    }}</u></b>
               </a>
             </p>
             {%- assign tags = page.tags -%}
@@ -48,7 +49,7 @@ layout: compress
             {%- unless content.size == 0 -%}
             <p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link">
                 {{ words | divided_by:180 }} min
-              </b>READ</p>
+              </b>Leitura</p>
             {%- endunless -%}
           </div>
         </div>

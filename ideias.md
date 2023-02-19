@@ -1,5 +1,4 @@
 ---
 title: Ideias
-layout: blog
+layout: ideias
 ---
-
