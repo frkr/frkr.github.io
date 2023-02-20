@@ -1,13 +1,6 @@
 <section class="hero is-fullheight has-text-centered" id="contact">
     <div class="hero-body">
         <div class="container">
-            {% unless site.facebook_username == %}
-            <a id="contact-button" href="https://m.me/{{site.facebook_username}}"
-                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
-                target="_blank">
-                <i class="fab fa-facebook-messenger"></i>Ping me on Messenger
-            </a>
-            {% endunless %}
             {% unless site.email == %}
             <a id="contact-button" href="mailto:{{site.email}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
@@ -15,18 +8,12 @@
                 <i class="fas fa-envelope"></i>Mande um email
             </a>
             {% endunless %}
-            {% unless site.cnpj == %}
-            <span id="contact-button"
-                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
-                >
-                <i class="fas fa-industry"></i>{{site.cnpj}}
-            </span>
-            {% endunless %}
             {% unless site.celular == %}
-            <a id="contact-button" href="tel:{{site.celular}}"
+            <a id="contact-button"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+                href="https://api.whatsapp.com/send?phone={{site.celular}}&text=Link%3A%0Ahttps%3A%2F%2Ffb.me%2F3Zk4ERQay%0A%0AOl%C3%A1!%20Pode%20me%20dar%20mais%20informa%C3%A7%C3%A3o%20sobre...&source_url=https%3A%2F%2Ffb.me%2F3Zk4ERQay&icebreaker=Ol%C3%A1!%20Pode%20me%20dar%20mais%20informa%C3%A7%C3%A3o%20sobre...&app=facebook&entry_point=post_cta&jid=5511920044039%40s.whatsapp.net&show_keyboard=1&show_ad_attribution=1&context=AWAUvsOfxNcaXAg05Nfvg1-7w-V0QC8iDjhZL4d58CRaC0Belh95fS_EzjyWHnZGYMcd0DTSiGLZIlvdHguPR62rOvYW2mmO_GigL3hdrYEhjM3irzdlFepih8uXq7XzN9-uzCjcPg302zI6M4ehSIYyUXy0VdzaN92xsdr7pDvzAGV67Rpq5q_v173IRg1x1TXjoh5k7Pyn-FwjzKT0zUkZOZoycnhpsBFitbE2epxN2bQ0PSX3LrYSPV7kLMdDmDmWm37xila_wZ20xEafglQD7hWwJfT12MQ7iQemshoQPhzI_CXk3o7t47pCQ3j4QGANJM32LTivH5SdcVud3leHJYoGOUQ9SgvH5aLEjHI8J0aaOS12eseysKEuZ6QvMig2ZLm1RNTGrk5YOrE1D2teimumPQEEMWdorqt5GjM&fbclid=IwAR1KOSz3oYrP1b3waUNBfy4aGaZG3uUKRfcs_E9rehKAKoagJwb8JlDExm4"
                 target="_blank">
-                <i class="fas fa-mobile"></i>{{site.celular}}
+                <i class="fas fa-mobile"></i>WhatsApp
             </a>
             {% endunless %}
             {% unless site.twitter_username == %}
@@ -72,6 +59,10 @@
                 <a href="http://open.spotify.com/user/{{site.spotify_username}}" target="_blank" class="has-text-black"><i class="fab fa-spotify"></i></a>
                 {% endunless %}
             </div>
+            <br>
+            <p>DAVI SARANSZKY MESQUITA CONSULTORIA EM TECNOLOGIA DA INFORMACAO LTDA</p>
+            <p>{{site.cnpj}}</p>
+            <p>Rua Pontal, 244 - Casa 01 - Vila Nhocune - São Paulo - SP - CEP: 03563-050</p>
         </div>
     </div>
 </section>
