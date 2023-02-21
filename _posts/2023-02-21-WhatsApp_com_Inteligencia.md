@@ -10,6 +10,76 @@ tags:
 - Artificial
 ---
 
+# Palavras Chave
+
+- chat
+- code
+- image
+
+---
+
+###### chat
+
+```
+chat Crie um chatbot para o WhatsApp
+```
+
+###### Resposta
+
+```
+*Chatgpt:* _Texto a seguir é um BOT:_
+
+Oi! Eu sou o seu chatbot para o WhatsApp. Estou aqui para ajudar você com qualquer dúvida que você possa ter. Por favor, diga-me o que você precisa e eu farei o meu melhor para ajudar.
+```
+
+---
+
+###### code Java Crie um hello world 
+
+```
+chat Crie um chatbot para o WhatsApp
+```
+
+###### Resposta
+
+```
+Chatgpt: Texto a seguir é um BOT:
+em Java.
+
+java
+public class HelloWorld {
+public static void main(String[] args) {
+System.out.println("Hello World!");
+}
+}
+
+
+Compile o código:
+
+bash
+javac HelloWorld.java
+
+
+Execute o código:
+
+bash
+java HelloWorld
+```
+
+---
+
+# Exemplos
+
+#### Chat Cliente
+
+![Chat Cliente](/assets/cliente.jpg)
+
+### Chat Telegram
+
+![Chat Telegram](/assets/recebendo-telegram.png)
+
+---
+
 ## Para o Facebook
 
 | Passos | Descrição                                                                                                          | 
@@ -18,7 +88,7 @@ tags:
 | 2      | Criar um aplicativo é necessário para prover a API de integração Simples                                           |
 | 3      | Algumas dicas de configuração. Adicionar um numero que *NÃO* tenha WhatsApp. A seção Webhook, deixar para o final. |
 | 4      | Todos os dashboards, mensagens com templates e outros assuntos (como o status da linha)                            |
-| 5      | Voltar a configurar a empresa para dar acesso a todos os recucusos                                                 |
+| 5      | Voltar a configurar a empresa para dar acesso a todos os recursos                                                  |
 | 6      | Use uma linha virtual. Ou o IoT (M2M) da Vivo                                                                      |
 
 ---
@@ -87,7 +157,7 @@ For additional info on setting up a WhatsApp Business account, refer to their ge
 
 ```json
 {
-    "model": "text-davinci-003",
+    "model": "text-davinci-003", 
     "temperature": 0,
     "max_tokens": 600,
     "top_p": 1,
@@ -95,6 +165,13 @@ For additional info on setting up a WhatsApp Business account, refer to their ge
     "presence_penalty": 0,
     "user": "" + user,
     "prompt": prompt,
+}
+```
+
+```json
+{
+    "model": "code-davinci-002", 
+    "max_tokens": 256
 }
 ```
 ---
@@ -112,3 +189,7 @@ curl https://api.openai.com/v1/completions \
   "presence_penalty": 0
 }'
 ```
+
+# Notas:
+- https://github.com/Wolox/react-chat-widget
+- https://github.com/stuyy/chat-platform-react
