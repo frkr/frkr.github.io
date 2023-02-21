@@ -1,0 +1,8 @@
+- name: Fav Icon
+  image: assets/Light-Bulb_icon_by_Till_Teenck_green.svg
+  link: https://pt.wikipedia.org/wiki/Ficheiro:Light-Bulb_icon_by_Till_Teenck_green.svg
+  description: Icone de lâmpada verde
+- name: WhatATheme
+  image: https://github.com/thedevslot/WhatATheme/blob/master/assets/images/meta.jpg
+  link: https://github.com/thedevslot/WhatATheme
+  description: Tema para Jekyll
