@@ -31,3 +31,4 @@ layout: page
 2. https://isoflex.com.br/categorias/pasta-isoflex/
 3. https://www.mecalux.com.br/armazenagem-industrial/armazens-automaticos?src=gg&param1=g&param2=AW_generic_hagakure&param3=armazens_automaticos&param4=m&param5=controle%20de%20estoque%20automatizado&utm_source=google&utm_medium=cpc&gclid=Cj0KCQiArsefBhCbARIsAP98hXTpVB3mlyijRIzqLjDNSHxDpTHQNxVpVIyFmuLue7H3jHnDP5-TacIaAvcjEALw_wcB
 4. https://www.citisystems.com.br/kanban-conceito-sistema-o-que-e-on-line/
+5. https://github.com/yeojz/otplib#in-nodejs
