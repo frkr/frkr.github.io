@@ -193,3 +193,5 @@ curl https://api.openai.com/v1/completions \
 # Notas:
 - https://github.com/Wolox/react-chat-widget
 - https://github.com/stuyy/chat-platform-react
+- https://api.slack.com/bot-users
+- https://core.telegram.org/bots
