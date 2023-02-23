@@ -78,6 +78,14 @@ java HelloWorld
 
 ![Chat Telegram](/assets/recebendo-telegram.png)
 
+### Chat Slack
+
+![Chat Slack](/assets/canaisslack.jpg)
+
+---
+
+![Chat Slack](/assets/msgsslack.jpg)
+
 ---
 
 ## Para o Facebook
