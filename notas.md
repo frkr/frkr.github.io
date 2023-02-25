@@ -35,3 +35,5 @@ layout: page
 5. https://github.com/yeojz/otplib#in-nodejs
 6. https://zeplin.io/
 7. https://www.canva.com/
+8. https://www.take.net/precos/
+9. https://lexica.art/
