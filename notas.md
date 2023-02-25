@@ -38,3 +38,4 @@ layout: page
 8. https://durable.co/
 8. https://www.take.net/precos/
 9. https://lexica.art/
+10. https://hasura.io/
